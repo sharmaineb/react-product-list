@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 import './styles.css';
 
-function CategoryButton({ label, onClick, isSelected }) {
+function CategoryButton(props) {
   return (
-    <button className={`CategoryButton ${isSelected ? 'selected' : ''}`} onClick={onClick}>
-      {label}
+    <button
+      onClick={props.onClick}
+      className={`CategoryButton ${props.active ? 'selected' : ''}`}
+    >
+      {props.label}
     </button>
   );
 }
 
 export default CategoryButton;
-
