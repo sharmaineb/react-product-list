@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Link to Completed Assignment
+[GH Pages Link](https://sharmaineb.github.io/react-product-list/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
