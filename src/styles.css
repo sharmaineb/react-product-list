@@ -77,38 +77,43 @@
     text-align: center;
 }
 
+/* styles.css (or your preferred CSS file) */
+
 .Product {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
-}
+    text-align: center;
+    font-weight: bold;
+  }
   
 .Product h3 {
     font-size: 1.5em;
-    color: #493267;
+    color: #967da9;
     margin-bottom: 10px;
-    text-align: center;
 }
   
 .Product p {
     font-size: 1em;
-    color: #9e379f;
+    color: #666;
     margin-bottom: 8px;
-    text-align: center;
 }
   
-.Product p.price {
+.Product .price {
     font-weight: bold;
-    color: #36802d; 
+    color: #28a745; 
 }
   
-.Product p.category {
+.Product .category {
     font-style: italic;
-    color: #7bb3ff; 
+    color: #007bff; 
 }
   
+.Product .units {
+    color: #dd7467; 
+}
   
-  
-  
-
+.Product .rating {
+    color: #ffc107; 
+}
   
