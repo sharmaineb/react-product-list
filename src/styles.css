@@ -1,0 +1,114 @@
+.CategoryList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+  
+.CategoryButton {
+    background-color: #373854;
+    color: #f1f1f1;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin: 0.4em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+  
+.CategoryButton:hover {
+    background-color: #e86af0;
+}
+  
+.CategoryButton.selected {
+    background-color: #2c3e50;
+}
+  
+.CategoryButton.selected:hover {
+    background-color: #233140;
+}
+  
+.ProductList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 1em;
+}
+  
+.Product {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+}
+  
+.InfoContainer {
+    margin-top: 20px;
+}
+  
+.TotalPrices,
+.SelectedTotalPrices {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+  
+.SelectedTotalPrices {
+    color: #27ae60;
+    text-align: center;
+}
+  
+.TotalPrices {
+    font-weight: bold;
+    text-align: center;
+}
+  
+.UnitCount {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.App h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+  
+.Product h3 {
+    font-size: 1.5em;
+    color: #493267;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  
+.Product p {
+    font-size: 1em;
+    color: #9e379f;
+    margin-bottom: 8px;
+    text-align: center;
+}
+  
+.Product p.price {
+    font-weight: bold;
+    color: #36802d; 
+}
+  
+.Product p.category {
+    font-style: italic;
+    color: #7bb3ff; 
+}
+  
+  
+  
+  
+
+  
